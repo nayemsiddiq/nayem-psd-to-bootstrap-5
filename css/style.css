@@ -1,0 +1,96 @@
+body{font-family: 'Merriweather',serif;margin: 0 auto;}p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-weight: 700;}
+img{max-width: 100%;}
+.container{overflow: hidden;margin: 0 auto;}
+a {transition: .5s;text-decoration: none;}
+.slicknav_menu {display: none;}
+
+/*section 1*/
+
+.section_1 {background-color: #a88c95;padding: 18px 0;overflow: hidden;}
+.section_1 .social_area ul{margin: 0;padding: 0;text-decoration: none;}
+.section_1 .social_area ul li{display: inline-block;margin-right: 5px;}
+.section_1 .social_area ul li a{background-color: #d2d2d2;color: #6a3144;width: 35px;height: 33px;text-align: center;padding-top: 5px;display: block;border-radius: 50%;}
+.section_1 .social_area ul li a:hover{background: #6a3144;color: azure;}
+.section_1 .search_area{text-align: right;}
+.section_1 .search_area input{background-color: #ffff;border: 0;border-radius: 5px 0px 0px 5px;padding: 10px;font-weight: 600px;font-size: 14px;width: 200px;}
+.section_1 .search_area input[type="submit"]{background-color: #684d55;color: #fff;padding: 10px;border: 0;border-radius: 0px 5px 5px 0px;font-weight: 600px;font-size: 14px;width: 80px;cursor: pointer;transition: 0.5s;}
+
+/*section 2*/
+.section_2 .logo{width: 220px;text-align: center;margin: 25px auto;max-width: 100%;}
+
+/*section 3*/
+
+.section_3 {background: #97455f;height: 53px;}
+.section_3 .main_menu ul{text-align: center;margin: 0 auto;padding: 0;list-style: none;}
+.section_3 .main_menu ul li{margin: 0 5px;display: inline-block;}
+.section_3 .main_menu ul li a{color: #fff;font-weight: 600;font-size: 14px;padding: 15px 20px;display: block;text-transform: uppercase;}
+.section_3 .main_menu ul li a:hover{background: #491626;}
+
+/*section 4*/
+
+
+.bx-wrapper .bx-pager {text-align: right;padding-right: 20px;}
+.bx-wrapper { height:auto;}
+.bx-wrapper .bx-pager.bx-default-pager a {width: 20px;height: 9px;}
+
+
+/*section 5*/
+
+.section_5 {width: 100%;overflow: hidden;background-color: #fff;padding: 30px 0;}
+.section_5 .items_1 {width: 90%;padding: 0 2%;box-sizing: border-box;height: auto;}
+.section_5 .items_1 h3 {font-weight: 400;font-size: 30px;text-transform: uppercase;}
+.section_5 .items_1 p {font-size: 18px;padding-bottom: 25px;margin-top: 30px;}
+.section_5 .items_1 a {background: #6a3144;text-transform: uppercase;padding: 10px 20px;color: #fff;}
+.section_5 .items_1 a:hover {background-color: #97455f;cursor: pointer;}
+
+/*section 6*/
+
+.section_6 { background: #f5f5f5;width: 100%;overflow: hidden;clear: both;height: auto;}
+.section_6 .col-md-4{margin-top: 40px;}
+.section_6 .child_service{padding: 70px 60px 80px 80px;position: relative;transition: .5s;height: 230px;margin-bottom: 10px;}
+.section_6 .title{text-align: center;font-size: 48px;color: #6a3144;}
+.section_6 .sub_title{text-align: center;font-size: 18px;}
+.section_6 .child_service h3{color: #523827;font-size: 100px;font-weight: 700;font-family: oswald,sans-serif;opacity: 0.1;position: absolute;left: 10px;top: 1px;}
+.section_6 .child_service h4{font-size: 20px;font-weight: 700;}
+.section_6 .child_service p{margin: 0 0 15px;}
+.section_6 .child_service:hover{box-shadow: 2px 2px 2px 2px grey;}
+
+/*section 7*/
+
+.section_7 {background-size: cover;background-color: #101f38;overflow: hidden;width: 100%;padding: 50px 0;}
+.section_7 .col-md-3{text-align:center;}
+.section_7 .col-md-3 input{width: 100%; margin-bottom: 5px;border-radius: 5px;padding: 10px;}
+.section_7 textarea{width: 100%;border-radius: 5px;height: 100px;padding: 10px;}
+.section_7 .btn{text-align:center ;}
+.section_7 .title{text-align: center;color: #f5f5f5;margin-bottom: 20px;}
+
+/*footer area*/
+
+.footer_area{text-align: center;}
+
+/*responsive issue*/
+
+@media only screen and (min-width:200px) and (max-width:768px){
+
+  .slicknav_menu {display: block;}
+  .section_3 {display: none;}
+  .section_1 .social_area{text-align: center;}
+  .section_1 .search_area {text-align: center;margin-top: 15px;}
+  .bx-wrapper {height: auto;}
+  .section_5 .items_1 {margin-bottom: 20px;}
+
+  }
+  @media only screen and (min-width:768px) and (max-width:1200px){
+  
+  .slicknav_menu {display: block;}
+  .section_3 {display: none;}
+  .bx-wrapper {height: auto;}
+  .section_5 .items_2{margin-top: 120px;}
+  .col-md-4 {width: 49.333333%;margin-bottom: 10px;}
+  .section_5{margin-bottom: 10px;}
+  .section_1 .social_area{text-align: center;}
+  .section_1 .search_area {text-align: center;margin-top: 15px;}
+  .col-md-8, .col-md-4 {margin: auto}
+
+}
